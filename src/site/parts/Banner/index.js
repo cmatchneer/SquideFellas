@@ -1,21 +1,19 @@
 import React from "react";
-import Container from "react-bootstrap/Container"
-import Jumbotron from "react-bootstrap/Jumbotron"
 import "./sass.scss"
+import "./css.css"
+
 class Banner extends React.Component {
     render() {
+      const className ="bg-primary"
+
         console.log(this.props.test)
       return (
           <div>
-        <Jumbotron fluid>
-        <Container>
-          <h1>Fluid jumbotron</h1>
-          <p>
-            This is a modified jumbotron that occupies the entire horizontal space of
-            its parent.
-          </p>
-        </Container>
-      </Jumbotron>
+            <div id="banner">
+              <h1 id="bannerText">SquidFellas </h1>
+              <p>Welcome to the squidfellas were we ink all over the world of entertainment</p>
+            </div>
+
       </div>
        
       )

@@ -1,5 +1,21 @@
-$myColor: red;
 
-h1 {
-  color: $myColor;
+// @import "~bootstrap/scss/bootstrap";
+$myColor: black;
+$purple:purple;
+#banner {
+  background-color: $myColor;
+  height: 200px;
+  border:2px solid $purple;
+  text-align: center;
+  color: $purple;
+  font-family: 'Indie Flower', cursive;
+
+
+
+}
+#bannerText{
+  margin-top: 40px;
+  font-size: 70px;
+  font-family: 'Abril Fatface', cursive;
+
 }
