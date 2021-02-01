@@ -2,13 +2,17 @@
 // @import "~bootstrap/scss/bootstrap";
 $myColor: black;
 $purple:purple;
+$teal:teal;
+
 #banner {
   background-color: $myColor;
   height: 200px;
-  border:2px solid $purple;
   text-align: center;
-  color: $purple;
+  color: $myColor;
   font-family: 'Indie Flower', cursive;
+  border-left:2px solid $teal;
+  border-right:2px solid $teal;
+  border-top:2px solid $teal;
 
 
 
@@ -17,5 +21,13 @@ $purple:purple;
   margin-top: 40px;
   font-size: 70px;
   font-family: 'Abril Fatface', cursive;
+
+}
+#alltext{
+  border-left:2px solid $myColor;
+  border-right:2px solid $myColor;
+  width: 50%;
+  margin: 0 auto;
+  background-color:$teal;
 
 }

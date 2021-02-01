@@ -1,6 +1,5 @@
 import React from "react";
 import "./sass.scss"
-import "./css.css"
 
 class Banner extends React.Component {
     render() {
@@ -10,8 +9,10 @@ class Banner extends React.Component {
       return (
           <div>
             <div id="banner">
-              <h1 id="bannerText">SquidFellas </h1>
-              <p>Welcome to the squidfellas were we ink all over the world of entertainment</p>
+              <div id="alltext">
+                <h1 id="bannerText">SquidFellas </h1>
+                <p>Welcome to the squidfellas were we ink all over the world of entertainment</p>
+              </div>
             </div>
 
       </div>
